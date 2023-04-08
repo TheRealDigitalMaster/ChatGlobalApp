@@ -8,27 +8,26 @@
   <title>ChatGlobal</title>
   <link rel="icon" href="Chat.png">
   <style>
-    body {
+body {
       box-sizing: border-box;
-      margin: 50px;
-      padding: 13px;
+      margin: 40px;
+      padding: 10px;
       display: flex;
       flex-direction: column;
       max-height: 100vh;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background:#23272a;
+      background:#8ddbff;
     }
 
     .members-count,
     .members-list,
     .messages {
-      border: 1px solid #2c2f33;
+      border: 1px solid #8ddbff;
       border-radius:10px;
-      background:#2c2f33;
+      background:#c4ecff;
       padding: 15px;
       margin-bottom: 15px;
     }
-
 
     .messages {
       flex-shrink: 1;
@@ -55,12 +54,11 @@
     }
     .message-form__input {
       flex-grow: 1;
-      border: 1px solid #23272a;
+      border: 1px solid #8ddbff;
       padding: 10px 15px;
       font-size: 16px;
       border-radius:10px;
-      background:#2c2f33;
-    }
+      background:#c4ecff;
     .message-form__button {
       margin: 10px;
       border-radius:10px; 
@@ -73,7 +71,7 @@
   <div class="messages"></div>
   <form class="message-form" onsubmit="return false;">
     <input class="message-form__input" placeholder="Type a message....." type="text"/>
-    <input class="message-form__button" value="🡲" style="background:#4fb2fc; border-radius:10px; border:none;" type="submit"/>
+    <input class="message-form__button" value="Send" style="background:#4fb2fc; border-radius:10px; border:none;" type="submit"/>
   </form>
   <script src="./Chat.js"></script>
 </body>
