@@ -6,4 +6,4 @@
 
 1. Background and .div colors and CSS.
 2. Changed the 'Send' button.
-3. Changed usernames to -User_(random number)-s
+3. Changed usernames to -User_(random number)s-
